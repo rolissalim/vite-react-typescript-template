@@ -1,0 +1,24 @@
+[
+  {
+    "context": "/api/v1",
+    "target": "https://rest-api-stock-item.up.railway.app/api/",
+    "docs": "https://rest-api-stock-item.up.railway.app/api-docs",
+    "logLevel": "debug",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/v1": ""
+    }
+  },
+  {
+    "context": "/media",
+    "target": "https://rest-api-stock-item.up.railway.app/",
+    "docs": "",
+    "logLevel": "debug",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/media": ""
+    }
+  }
+]

@@ -1,0 +1,47 @@
+#page-topbar {
+    // position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    background-color: #e9ecef;
+    transition: all 0.1s ease-out;
+    margin-bottom: 1rem;
+}
+
+.header-profile-user {
+    height: 36px;
+    width: 36px;
+    border: #212529 1px solid;
+}
+
+.header-item {
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    &.topbar-user {
+        background-color: var(--vz-topbar-user-bg);
+    }
+
+
+
+}
+
+.user-name-text {
+    color: #212529
+}
+
+.navbar-header {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 70px;
+    padding: 0 1.5rem 0 calc(1.5rem / 2);
+}

@@ -1,0 +1,24 @@
+.page-content {
+    padding: 0 calc(1.5rem / 2) 0px calc(1.5rem / 2);
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 0.75rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(0.75rem * 0.5);
+    padding-left: calc(0.75rem * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.avatar-sm {
+    height: 3rem;
+    width: 3rem;
+}
